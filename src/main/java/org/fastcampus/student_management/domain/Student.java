@@ -18,6 +18,10 @@ public class Student {
     this.activated = true;
   }
 
+  public void setActivated (boolean activated) {
+    this.activated = activated;
+  }
+
   public String getName() {
     return name;
   }
